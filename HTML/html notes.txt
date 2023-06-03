@@ -1,0 +1,152 @@
+HTML-Hyper Text Markup Language
+--------
+It is used create layout for webpages.(extension- .html)
+
+With the help of tags we can define the layout.
+
+In two ways we can display the elements in html.
+1.Block
+    It takes up the entire width of the page.eg:<div>
+2.Inline
+    It takes up as much space as you need sitting right next to each other.eg:<span>
+TAGS
+-----
+1.<!DOCTYPE>
+     It tells us about the type of the document.
+	 For html: <DOCTYPE! html>
+
+2.Container tags
+     <html> - starting tag
+     </html> - ending tag	
+      we will put all the other tags inside container tags.
+
+3.Head tags and Body tags
+    >head tags defines data about the document like title,description,links etc.
+    >body tag is where our all html content goes.
+
+eg.
+   <!DOCTYPE html>
+   <html>
+    <head>
+	   <title>WEBPAGE</title>
+	</head>
+	<body>
+	   Hello World!!
+	</body>
+   </html>   
+
+
+BASIC TAGS
+-----------
+1.header tags
+   -h1 to h6
+   -headers will look a littile bit bolder and bigger than normal text.
+  eg: <h2>Hello</h2>
+  
+2.paragraph tag
+    -defines paragraph of our website.
+  eg:<p>hello, my name is meghu</p>
+  
+3.Bold tag
+     - <b> hello </b>
+
+4.Italised tag
+     -<i> hello </i>
+
+5.Break tag
+      - it creates a new line.
+	  -<br/>
+	  
+6.Horizontal rule tag
+     -give straight line right across the website.
+	 -<hr/>
+	 
+7.Big/Small tags
+     -<big>...</big>
+	 -<small>...</small>
+
+8.Subscripts and superscripts
+      -<sub>...</sub>
+	  -<sup>...</sup>
+	  
+9.Comments
+    - <!-- abcfd -->
+
+LINKS
+-----
+   -uesd to link our website to other wenbsites.
+   - <a href=".....">any text can be included</a>
+   href= where we wnat to link.
+   
+IMAGES
+------
+
+   -used to add images
+   - <img src="..."   alt="..."/>
+   alt- will show if the image doesn't show-up.
+   
+VIDEOS 
+------
+    - <video src=".." poster=".jpg" loop controls></video>
+	Attributes:-
+	controls-which will add controls(pause,volume etc) to our video.
+	poster- to add the thumbnail.
+	autoplay- to autoplay- the video.
+	loop- to play video from start
+	
+
+Youtube Iframes
+----------------
+   - To add youtube videos thru iframes
+    <iframe>
+	
+LISTS
+-----
+<li>...</li>
+1.Ordered list
+     It allows us to display items in particular order.
+	 <ol type="A">..</ol>
+2.Unordered LISTS
+     It doesn't have particular order.
+	 <ul>...<ul>
+	 
+TBLES
+-----
+   <p>Tables</p>
+    <table>
+        <tr>
+            <td>Sl.</td>
+            <td>Name</td>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>John</td>
+        </tr>
+    </table>
+	
+INPUT & FORMS
+-------------
+<input type=".."/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
